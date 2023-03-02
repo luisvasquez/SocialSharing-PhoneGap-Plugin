@@ -81,6 +81,7 @@
 
     <config-file target="AndroidManifest.xml" parent="/*">
       <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+      <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
     </config-file>
 
     <config-file target="AndroidManifest.xml" parent="/manifest/application">
